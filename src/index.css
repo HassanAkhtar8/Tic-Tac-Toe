@@ -11,6 +11,7 @@
         box-sizing: border-box;
     }
     body{
-        @apply bg-teal-500
+        @apply bg-teal-500 
+
     }
 }
