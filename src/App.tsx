@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+    {!start&&<Header></Header>}
     {start?<Main></Main>:<Button start={start} setStart={setStart}></Button>}
     
     </>
